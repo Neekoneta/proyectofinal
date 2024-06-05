@@ -1,0 +1,21 @@
+.medio{
+    height: $altura-medio;
+    background-color:$color-fondo;
+    margin: $margen-medio;
+}
+.izq{
+    height:$altura-maxima ;
+    background-color:$color-principal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.der{
+    height: $altura-maxima;
+    background-color:$color-principalsecundario;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
+}
