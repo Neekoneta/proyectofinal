@@ -1,0 +1,15 @@
+
+.abajo{
+    height: $altura-abajo-contacto-medioCVLOL;
+    background-color: $color-fondodivs;
+}
+
+.experiencia{
+    color:$color-letra;
+    text-transform: uppercase;
+    font-size: $texto-experiencia;
+    margin-top: 100px;
+    text-shadow: $sombraTexto;
+    font-family:$texto-titulo;
+    letter-spacing: 2px;
+}

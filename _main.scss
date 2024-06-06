@@ -19,3 +19,51 @@
     align-items: center;
     
 }
+
+.textopresentacion{
+    font-size: $texto-presentacion;
+}
+
+/* INDEX.HTML MEDIA QUERIES*//* INDEX.HTML MEDIA QUERIES*//* INDEX.HTML MEDIA QUERIES*//* INDEX.HTML MEDIA QUERIES*//* INDEX.HTML MEDIA QUERIES*/
+
+@media (max-width:701px){
+     
+     .izq{
+        display: none;
+        background-color: transparent;
+    }
+    .der{
+        width: 100%;
+        
+    }
+    .textopresentacion{
+        font-size: 25px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:0px)and (max-width:400px){
+.textopresentacion{
+    font-size: 20px;
+}
+}
+@media only screen and (min-width:701px)and (max-width:900px){
+    .textopresentacion{
+        font-size: 25px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:900px)and (max-width:1279px)
+{   
+    .textopresentacion
+    {
+        font-size: 32px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+}

@@ -1,0 +1,85 @@
+
+.textosoybueno{
+    height: $altura-maxima;
+    background-color:$color-letra;
+    font-size: $texto-soybueno;
+}
+.izqq{
+    height: $altura-maxima;
+    background-color:$color-principal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.derechaa{
+    height: $altura-maxima;
+    background-color:$color-principalsecundario;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;}
+
+
+.fotogaleria{
+    height: $altura-formacion-fotogaleria;
+    background-color: black;
+}
+.medioo{
+    height:$altura-abajo-contacto-medioCVLOL;
+    background-color:$color-letra;
+}
+.textolol{
+    font-size: $texto-lol;
+    color:$color-textolol;
+    font-family: $texto-titulo;
+    font-weight: lighter;
+    font-style: normal;
+    letter-spacing: 1px;
+    
+}
+
+ /* CVLOL.HTML MEDIA QUERIES*/ /* CVLOL.HTML MEDIA QUERIES*/ /* CVLOL.HTML MEDIA QUERIES*/ /* CVLOL.HTML MEDIA QUERIES*/
+  /* CVLOL.HTML MEDIA QUERIES*/ /* CVLOL.HTML MEDIA QUERIES*/ /* CVLOL.HTML MEDIA QUERIES*/ /* CVLOL.HTML MEDIA QUERIES*/
+
+@media only screen and (min-width:900px)and (max-width:1279px)
+{   
+    .textolol{
+        font-size: 28px;
+        text-align: center;
+        color: black;
+    }
+}
+
+@media (max-width:701px)
+{ /* CVLOL.HTML MEDIA QUERIES*/
+    .izqq{
+        width: 100%;
+        
+        
+    }
+   
+    .derechaa{
+        display: none;
+    }
+    
+    .textolol{
+        font-size: 17px;
+        text-align: center;
+        color: black;
+    }
+   
+    
+    
+   
+}
+
+@media only screen and (min-width:701px)and (max-width:900px){
+    /* CVLOL.HTML MEDIA QUERIES*/
+    .textolol{
+        font-size: 23px;
+        text-align: center;
+        color: black;
+    }
+   
+    
+    } 
