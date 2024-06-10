@@ -2,6 +2,9 @@
 /*TEXTOS*/
 /*ALTURAS*/
 /*MARGIN*/
+body{
+  background-color:  rgb(55, 55, 56);
+}
 .arriba {
   height: 15%;
   background-color: black;
@@ -101,6 +104,7 @@
   text-shadow: 2px 5px black;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
+  animation: pulse 1s infinite;
 }
 
 .formacion {
@@ -147,6 +151,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 305px;
+ 
 }
 
 .abajoo {
@@ -436,6 +441,7 @@
   text-shadow: 2px 5px black;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
+  
 }
 
 .almedio {
@@ -462,5 +468,49 @@ li {
     font-size: 20px;
   }
 }
+.linkk{
+  transition-property:background-color, color;
+  transition-duration: 300ms;
+}
 
+.linkk:hover{
+  background-color: #FFF;
+  color: dodgerblue;
+}
+
+.linkcvlol{
+  transition-property:  color;
+  transition-duration: 300ms;
+
+}
+.linkcvlol:hover{
+  color: black;
+}
+
+@keyframes pulse{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1,2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+              
+.grow{
+  transition: .5s, color .10s;
+      -webkit-transition: .5s, color .10s;
+      -moz-transition: .5s, color .10s;
+}
+.grow:hover{
+  transform: scale3d(1.5, 1.5, 0.3);
+      -webkit-transform: scale3d(1.5, 1.5, 0.3);
+      -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+
+              
+            
 /*# sourceMappingURL=estilonuevo.css.map */
